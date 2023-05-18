@@ -3,7 +3,7 @@
 第三回課題　じゃんけんアプリのリッチバーです。
 ## DEMO
 
-  - デプロイしている場合はURLを記入（任意）
+(https://github.com/HirokiKosaka/jankenRich.git)
 
 ## 紹介と使い方
 
