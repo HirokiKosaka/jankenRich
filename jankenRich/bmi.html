@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bmi.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bmi-container">
+    <div class="form">
+      <div class="tall">
+        <label for="tall-label">身長<input type="text" id="sinchou" value=""></label>
+
+      </div>
+      <div class="weight">
+        <label for="weight-label">体重<input type="text" id="taiju" value=""></label>
+      </div>
+        <input id="btn" type="button" value="BMIを計算する">
+    </div>
+    <h2 id="msg"></h2>
+  </div>
+  <div class="result" id="advice">
+
+  </div>
+    <div id="janken">
+      <div class="my-janken">
+        <ul>
+          <li><button class="gu">👊</button></li>
+          <li><button class="choki">✌️</button></li>
+          <li><button class="pa">🖐️</button></li>
+        </ul>
+      </div>
+      <div class="cpu-janken">
+        <ul>
+          <li class="cpu-gu">👊</li>
+          <li class="cpu-choki">✌️</li>
+          <li class="cpu-pa">🖐️</li>
+        </ul>
+      </div>
+      <p>じゃんけんに勝つと、「どうやって痩せればいいか」あなたへのアドバイスが出ます</p>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="./js/bmi.js"></script>
+</body>
+</html>
+
+<!-- 
+BMI計算式
+体重÷{(身長)*(身長)} -->
